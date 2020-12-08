@@ -5,36 +5,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minion Banana Talk</title>
+  <link rel="stylesheet" href="/style.css">
   <style>
-    textarea {
-      width: 90%;
-      height: 10vh;
-      display: block;
-      padding: 1.5rem;
-      margin: 1rem 0rem;
 
-    }
-    #txt-output{
-      width: 90%;
-      height: 10vh;
-      display: block;
-      border: 0.5px solid black;
-      padding: 1.5rem;
-      margin: 1rem 0rem; 
-    }
   </style>
 </head>
 
 <body>
-  <h1>Talk Bannana</h1>
-  <textarea placeholder="write in something in English" id="txt-input" cols="30" rows="10"></textarea>
-  <button id="btn-translate">Translate</button>
+  <header class="logo">
+    <h1>Talk Bannana</h1>
 
-  <div>Output will be here 👇 </div>
-  <div id="txt-output"></div>
-  
+
+  </header>
+
+  <section class="hero">
+
+    <p>Are you a fan of minions? </p>
+
+      <p>Did you know that the gibberish they say is an actual language.</p>
+
+    <p> Use the translator to
+      convert your text from English to Minion speak or Banana language.</p>
+
+    <section class="box">
+      <div id="input">
+      <p class="ins">GIVE YOUR INPUT HERE👇</p>
+      <textarea placeholder="Enter text" id="txt-input" cols="30" rows="10"></textarea>
+
+      </div>
+
+      <div id="output">
+        <p class="ins">TRANSLATED TEXT HERE👇 </p>
+        <div id="txt-output"></div>
+      </div>
+    </section>
+
+     <button id="btn-translate">Translate</button>
+
+      
+
+
+  </section>
+
+  <footer class="end">
+    <h3>
+      Made by <a href="https://github.com/utsavkumar-280" target="_blank">Utsav kumar</a>
+    </h3>
+  </footer>
+
+
   <script src="/app.js" type="text/javascript"></script>
-
 </body>
 
 </html>
