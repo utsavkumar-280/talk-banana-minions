@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Days+One&family=Rammetto+One&family=Special+Elite&display=swap');
-:root {
-  --primary: #14b8a6;
-  --secondary: #7c3aed;
-  --primary-dark: #115e59;
-  --off-white: #f3f4f6;
-  --white: #ffffff;
-}
+
 
 /* Global styles */
 *{
